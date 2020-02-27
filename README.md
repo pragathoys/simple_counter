@@ -1,5 +1,6 @@
 # Simple Counter
-A simple counter in a Smart Contract.
+
+A simple counter app implemented as a Smart Contract.
 
 ## Scope of this project
 
@@ -10,8 +11,12 @@ With this project I would like to show you how to create a smart contract as sim
 - how to create tests to help you maintain the code
 - how to use the Remix development environment
 
+## Usage
+
+There is no actual usage of this project. The functionality is limited: you can simply increase the value of a state variable or reset it down to zero.
+
 ## Remix Development environment
 
 Remix is and easy to use development environment directly available within your web browser.
 
-Point your browser at: https://remix.ethereum.org/
+Point your browser to the browser-based IDE: https://remix.ethereum.org/
