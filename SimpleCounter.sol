@@ -8,6 +8,10 @@ contract SimpleCounter{
 		counter++;
 	}
 	
+	function reset() public {
+		counter = 0;
+	}
+	
 	function getValue() public view returns (uint256) {
 		return counter;
 	}

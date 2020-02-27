@@ -14,5 +14,19 @@ contract test{
 		simple_counter.run();
 		Assert.equal( simple_counter.getValue() , uint(1), "Value in 'counter' variable should be 1");
 	}
+
+	function checkReset() public{ 
+		simple_counter.run();
+		simple_counter.reset();
+		Assert.equal( simple_counter.getValue() , uint(0), "Value in 'counter' variable should be 0 after each reset");
+	}
+
+
+	function checkRunTwice() public{ 
+		simple_counter.reset();
+		simple_counter.run();
+		simple_counter.run();
+		Assert.equal( simple_counter.getValue() , uint(2), "Value in 'counter' variable should be 2 after runing twice");
+	}	
 	
 }
