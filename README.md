@@ -17,6 +17,6 @@ There is no actual usage of this project. The functionality is limited: you can 
 
 ## Remix Development environment
 
-Remix is and easy to use development environment directly available within your web browser.
+Remix is an easy to use development environment directly available within your web browser. Simply it is a browser-based IDE.
 
-Point your browser to the browser-based IDE: https://remix.ethereum.org/
+Point your browser at: https://remix.ethereum.org/
